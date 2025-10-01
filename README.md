@@ -1,5 +1,7 @@
 # NUCLEO-GRID OPS
 
+![License: MIT License](https://img.shields.io/badge/License-MIT-blue?logo=github)
+
 **Genre:** Industrial Management / Strategy Simulator
 
 **Author:** Gholamhasan Ehsani
