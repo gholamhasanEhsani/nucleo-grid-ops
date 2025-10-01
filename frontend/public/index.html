@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NUCLEO-GRID OPS</title>
+</head>
+<body>
+    <h1>NUCLEO-GRID OPS</h1>
+    <button id="load">Load Plants</button>
+    <pre id="output"></pre>
+
+    <script>
+        document.getElementById("load").onclick = async () => {
+            const res = await fetch("/api/plants");
+            const data = await res.json();
+            document.getElementById("output").textContent = JSON.stringify(data, null, 2);
+        }
+    </script>
+</body>
+</html>
